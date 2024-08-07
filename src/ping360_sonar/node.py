@@ -5,6 +5,7 @@ from math import cos, pi, sin
 import numpy as np
 import rospy
 
+import cv2
 from cv_bridge import CvBridge, CvBridgeError
 from dynamic_reconfigure.server import Server
 from sensor_msgs.msg import Image
@@ -12,7 +13,7 @@ from sensor_msgs.msg import LaserScan
 
 from ping360_sonar.cfg import sonarConfig
 from ping360_sonar.msg import SonarEcho
-from sensor import Ping360
+from .sensor import Ping360
 
 # Global Variables
 
