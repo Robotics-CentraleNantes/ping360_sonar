@@ -42,7 +42,7 @@ Before building from source, install [ping-protocol python lib](https://pypi.org
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package using
 
 	cd catkin_workspace/src
-	git clone https://github.com/CentraleNantesRobotics/ping360_sonar.git
+	git clone -b master https://github.com/CentraleNantesRobotics/ping360_sonar.git
 	cd ../
 	catkin build
 
