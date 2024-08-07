@@ -111,8 +111,8 @@ class Ping360(PingDevice):
         m.mode = mode
         m.gain_setting = gain_setting
         m.angle = angle
-        m.transmit_duration = round(transmit_duration)
-        m.sample_period = round(sample_period)
+        m.transmit_duration = int(round(transmit_duration))
+        m.sample_period = int(round(sample_period))
         m.transmit_frequency = transmit_frequency
         m.number_of_samples = number_of_samples
         m.transmit = transmit
