@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 ## Overview
 
-A python ROS package for the [BlueRobotics] [Ping360] Sonar. The package has been tested under [ROS] melodic and Ubuntu 16.04. This code is mostly experimental, expect that it changes often.
+A python ROS package for the [BlueRobotics] [Ping360] Sonar. The package has been tested under [ROS] melodic under Ubuntu 16.04 and noetic under Unbuntu 20.04. This code is mostly experimental, expect that it changes often.
 
 **Keywords:** ROS, package, ping360, ping360 emulator
 
